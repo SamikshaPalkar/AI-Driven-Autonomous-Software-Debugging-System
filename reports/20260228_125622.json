@@ -1,0 +1,28 @@
+=== AI Debugging Report ===
+Severity Level: Info
+
+------------------------------
+🔍 Analysis Result:
+{'status': 'error', 'type': 'SyntaxError', 'line': 2, 'offset': 10, 'text': 'if x > 0', 'message': "expected ':'"}
+
+------------------------------
+📌 Suggestions:
+{'summary': 'Unknown error type.', 'solution': "expected ':'", 'fixed_code': None}
+
+------------------------------
+🧪 Static Analysis Issues:
+- Static parse error: expected ':' (<unknown>, line 2)
+
+------------------------------
+✨ Auto-Fix Code:
+Here is the fixed Python code:
+
+```python
+def check_number(x):
+    if x > 0:
+        print("Positive")
+    else:
+        print("Negative")
+
+check_number(5)
+```

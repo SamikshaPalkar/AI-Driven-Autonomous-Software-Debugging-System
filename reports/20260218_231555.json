@@ -1,0 +1,26 @@
+=== AI Debugging Report ===
+Severity Level: Info
+
+------------------------------
+🔍 Analysis Result:
+{'status': 'error', 'message': 'C:\\Users\\SAMIKS~1\\AppData\\Local\\Temp\\tmpu7n5v8ck.c: In function \'main\':\nC:\\Users\\SAMIKS~1\\AppData\\Local\\Temp\\tmpu7n5v8ck.c:4:26: error: expected \';\' before \'return\'\n    4 |     printf("Hello World")\n      |                          ^\n      |                          ;\n    5 |     return 0;\n      |     ~~~~~~                \n'}
+
+------------------------------
+📌 Suggestions:
+{'summary': 'Unknown error type.', 'solution': 'C:\\Users\\SAMIKS~1\\AppData\\Local\\Temp\\tmpu7n5v8ck.c: In function \'main\':\nC:\\Users\\SAMIKS~1\\AppData\\Local\\Temp\\tmpu7n5v8ck.c:4:26: error: expected \';\' before \'return\'\n    4 |     printf("Hello World")\n      |                          ^\n      |                          ;\n    5 |     return 0;\n      |     ~~~~~~                \n', 'fixed_code': None}
+
+------------------------------
+🧪 Static Analysis Issues:
+- Possible missing semicolon at line 1.
+- Possible missing semicolon at line 4.
+
+------------------------------
+✨ Auto-Fix Code:
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello World");
+    return 0;
+}
+```

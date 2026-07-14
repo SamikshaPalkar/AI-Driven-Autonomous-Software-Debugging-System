@@ -1,0 +1,17 @@
+{
+    "language": "Python",
+    "code": "print",
+    "analysis": {
+        "status": "success",
+        "message": "No syntax errors found!"
+    },
+    "static_analysis": [],
+    "suggestions": {
+        "summary": "No issues detected.",
+        "solution": "Your code looks correct!",
+        "fixed_code": null
+    },
+    "severity": "Info",
+    "auto_fix": null,
+    "report": "===== AI Debugging Report =====\n\n>> Severity Level\nInfo\n\n>> Error Analysis\n{'status': 'success', 'message': 'No syntax errors found!'}\n\n>> AI Explanation\nSummary: No issues detected.\nSolution: Your code looks correct!\n\n>> Static Analysis\nNo static issues found.\n\n>> Auto-Fixed Code\nNo auto-fix available.\n"
+}

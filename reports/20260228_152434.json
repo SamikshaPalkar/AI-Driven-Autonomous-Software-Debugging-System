@@ -1,0 +1,28 @@
+=== AI Debugging Report ===
+Severity Level: Info
+
+------------------------------
+🔍 Analysis Result:
+{'status': 'error', 'type': 'SyntaxError', 'line': 2, 'offset': 1, 'text': 'if x > 0', 'message': 'expected an indented block after function definition on line 1'}
+
+------------------------------
+📌 Suggestions:
+{'summary': 'Unknown error type.', 'solution': 'expected an indented block after function definition on line 1', 'fixed_code': None}
+
+------------------------------
+🧪 Static Analysis Issues:
+- Static parse error: expected an indented block after function definition on line 1 (<unknown>, line 2)
+
+------------------------------
+✨ Auto-Fix Code:
+The corrected Python Code should look like this:
+
+```python
+def check_number(x):
+    if x > 0:
+        print("Positive")
+    else:
+        print("Negative")
+
+check_number(5)
+```

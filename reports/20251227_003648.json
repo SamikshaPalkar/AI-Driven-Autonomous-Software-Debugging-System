@@ -1,0 +1,23 @@
+{
+    "language": "Python",
+    "code": "print (hello\"",
+    "analysis": {
+        "status": "error",
+        "type": "SyntaxError",
+        "line": 1,
+        "offset": 13,
+        "text": "print (hello\"",
+        "message": "unterminated string literal (detected at line 1)"
+    },
+    "static_analysis": [
+        "Static parse error: unterminated string literal (detected at line 1) (<unknown>, line 1)"
+    ],
+    "suggestions": {
+        "summary": "Unknown error type.",
+        "solution": "unterminated string literal (detected at line 1)",
+        "fixed_code": null
+    },
+    "severity": "Info",
+    "auto_fix": null,
+    "report": "===== AI Debugging Report =====\n\n>> Severity Level\nInfo\n\n>> Error Analysis\n{'status': 'error', 'type': 'SyntaxError', 'line': 1, 'offset': 13, 'text': 'print (hello\"', 'message': 'unterminated string literal (detected at line 1)'}\n\n>> AI Explanation\nSummary: Unknown error type.\nSolution: unterminated string literal (detected at line 1)\n\n>> Static Analysis\n- Static parse error: unterminated string literal (detected at line 1) (<unknown>, line 1)\n>> Auto-Fixed Code\nNo auto-fix available.\n"
+}

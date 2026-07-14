@@ -1,0 +1,21 @@
+{
+    "analysis": {
+        "status": "error",
+        "type": "SyntaxError",
+        "line": 1,
+        "offset": 6,
+        "text": "print(hello",
+        "message": "'(' was never closed"
+    },
+    "severity": "Info",
+    "static_analysis": [
+        "Static parse error: '(' was never closed (<unknown>, line 1)"
+    ],
+    "suggestion": {
+        "summary": "Unknown error type.",
+        "solution": "'(' was never closed",
+        "fixed_code": null
+    },
+    "auto_fix": null,
+    "report_text": "===== AI Debugging Report =====\n\n>> Severity Level\nInfo\n\n>> Error Analysis\n{'status': 'error', 'type': 'SyntaxError', 'line': 1, 'offset': 6, 'text': 'print(hello', 'message': \"'(' was never closed\"}\n\n>> AI Explanation\nSummary: Unknown error type.\nSolution: '(' was never closed\n\n>> Static Analysis\n- Static parse error: '(' was never closed (<unknown>, line 1)\n>> Auto-Fixed Code\nNo auto-fix available.\n"
+}

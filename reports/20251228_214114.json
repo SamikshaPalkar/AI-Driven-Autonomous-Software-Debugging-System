@@ -1,0 +1,21 @@
+{
+    "analysis": {
+        "status": "error",
+        "type": "SyntaxError",
+        "line": 1,
+        "offset": 10,
+        "text": "if x == 5)",
+        "message": "unmatched ')'"
+    },
+    "severity": "Info",
+    "static": [
+        "Static parse error: unmatched ')' (<unknown>, line 1)"
+    ],
+    "suggestion": {
+        "summary": "Unknown error type.",
+        "solution": "unmatched ')'",
+        "fixed_code": null
+    },
+    "auto_fix": null,
+    "report": "=== AI Debugging Report ===\nSeverity Level: Info\n\n------------------------------\n\ud83d\udd0d Analysis Result:\n{'status': 'error', 'type': 'SyntaxError', 'line': 1, 'offset': 10, 'text': 'if x == 5)', 'message': \"unmatched ')'\"}\n\n------------------------------\n\ud83d\udccc Suggestions:\n{'summary': 'Unknown error type.', 'solution': \"unmatched ')'\", 'fixed_code': None}\n\n------------------------------\n\ud83e\uddea Static Analysis Issues:\n- Static parse error: unmatched ')' (<unknown>, line 1)\n\n------------------------------\n\u2728 Auto-Fix Code:\nNo fix available."
+}

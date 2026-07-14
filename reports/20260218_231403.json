@@ -1,0 +1,22 @@
+=== AI Debugging Report ===
+Severity Level: Info
+
+------------------------------
+🔍 Analysis Result:
+{'status': 'error', 'type': 'SyntaxError', 'line': 2, 'offset': 8, 'text': 'if user = "admin":', 'message': "invalid syntax. Maybe you meant '==' or ':=' instead of '='?"}
+
+------------------------------
+📌 Suggestions:
+{'summary': 'Unknown error type.', 'solution': "invalid syntax. Maybe you meant '==' or ':=' instead of '='?", 'fixed_code': None}
+
+------------------------------
+🧪 Static Analysis Issues:
+- Static parse error: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<unknown>, line 2)
+
+------------------------------
+✨ Auto-Fix Code:
+```python
+def login(user, passw):
+    if user == "admin":
+        print("Welcome")
+```

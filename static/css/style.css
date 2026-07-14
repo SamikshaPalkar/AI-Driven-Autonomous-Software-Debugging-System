@@ -1,0 +1,198 @@
+body {
+    background-color: #eef09a !important;
+}
+
+body.dark-mode {
+    background-color: #0d1117 !important;
+    color: #fff !important;
+}
+
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #111;
+    color: white;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: #ddd;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #333;
+}
+
+.main {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+    background: royalblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0047cc;
+}
+
+.output-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 600px;
+}
+
+.section-box {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.dark-mode {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.dark-mode .output-box {
+    background: #1e1e1e !important;
+    color: #fff !important;
+    border-color: #444;
+}
+
+.style 
+/* Default Light Mode */
+body {
+    background-color: #eef09a !important;
+    color: #000;
+}
+
+/* FULL Dark Mode */
+body.dark-mode {
+    background-color: #0d1117 !important;
+    color: #ffffff !important;
+}
+
+/* SIDEBAR */
+body.dark-mode .sidebar {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .sidebar a {
+    color: #bbb !important;
+}
+body.dark-mode .sidebar a:hover {
+    color: white !important;
+}
+
+/* MAIN CONTENT BOXES */
+body.dark-mode .main-content {
+    background: #0d1117 !important;
+}
+
+body.dark-mode textarea,
+body.dark-mode select,
+body.dark-mode input {
+    background: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}
+
+/* OUTPUT BOX */
+body.dark-mode .output-box {
+    background: #1e1e1e !important;
+    color: #fff !important;
+    border-color: #444 !important;
+}
+
+/* Buttons */
+body.dark-mode .btn {
+    border-color: #555 !important;
+}
+body.dark-mode .btn-primary {
+    background-color: #0056b3 !important;
+}
+body.dark-mode .btn-warning {
+    background-color: #b38f00 !important;
+}
+body.dark-mode .btn-success {
+    background-color: #0a8f4c !important;
+}
+
+/* 🌞 LIGHT MODE (default) */
+body {
+    background-color: #eeefe4 !important;
+    color: #000 !important;
+}
+
+/* 🌙 DARK MODE */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+/* Sidebar */
+body.dark-mode .sidebar {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .sidebar a {
+    color: #bbb !important;
+}
+body.dark-mode .sidebar a:hover {
+    color: #fff !important;
+}
+
+/* Main content box */
+body.dark-mode .output-box {
+    background: #1a1a1a !important;
+    border-color: #333 !important;
+    color: #fff !important;
+}
+
+/* Inputs */
+body.dark-mode textarea,
+body.dark-mode select {
+    background: #1f1f1f !important;
+    color: #fff !important;
+    border-color: #444 !important;
+}

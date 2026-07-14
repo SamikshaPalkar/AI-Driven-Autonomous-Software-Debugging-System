@@ -1,0 +1,21 @@
+=== AI Debugging Report ===
+Severity Level: Info
+
+------------------------------
+🔍 Analysis Result:
+{'status': 'error', 'type': 'SyntaxError', 'line': 1, 'offset': 13, 'text': 'def add(a,b)', 'message': "expected ':'"}
+
+------------------------------
+📌 Suggestions:
+{'summary': 'Unknown error type.', 'solution': "expected ':'", 'fixed_code': None}
+
+------------------------------
+🧪 Static Analysis Issues:
+- Static parse error: expected ':' (<unknown>, line 1)
+
+------------------------------
+✨ Auto-Fix Code:
+```python
+def add(a, b):
+    return a + b
+```

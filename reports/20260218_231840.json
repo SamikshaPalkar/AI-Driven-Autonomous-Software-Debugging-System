@@ -1,0 +1,23 @@
+=== AI Debugging Report ===
+Severity Level: Info
+
+------------------------------
+🔍 Analysis Result:
+{'status': 'error', 'type': 'SyntaxError', 'message': 'Missing semicolon at the end of line.', 'line': 1}
+
+------------------------------
+📌 Suggestions:
+{'summary': 'Unknown error type.', 'solution': 'Missing semicolon at the end of line.', 'fixed_code': None}
+
+------------------------------
+🧪 Static Analysis Issues:
+No static issues detected.
+
+------------------------------
+✨ Auto-Fix Code:
+```javascript
+function test() {
+    console.log("Hello");
+}
+test();
+```
