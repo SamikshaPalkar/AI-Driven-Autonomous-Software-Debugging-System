@@ -1,7 +1,6 @@
-**AI-Driven Autonomous Software Debugging System**
+AI-Driven Autonomous Software Debugging System
 
 An AI-powered autonomous software debugging system designed to analyze source code, identify potential errors, and assist developers in understanding and resolving software issues.
-
 
 🚀 Overview
 
@@ -9,34 +8,20 @@ The AI-Driven Autonomous Software Debugging System aims to simplify the debuggin
 
 Instead of manually searching through code to identify problems, the system helps developers locate and understand issues more efficiently.
 
-
 ✨ Key Features
-
 🔍 Automated Code Analysis – Analyzes source code to identify potential issues.
-
 🐞 Error Detection – Detects programming errors and problematic code.
-
 🤖 AI-Assisted Debugging – Uses AI-driven analysis to assist in understanding errors.
-
 💡 Debugging Insights – Provides explanations and useful information about detected issues.
-
 🖥️ Web-Based Interface – Provides an easy-to-use interface for interacting with the debugging system.
-
 📊 Structured Analysis – Organizes debugging results for easier understanding.
 
 🛠️ Technologies Used
-
-
 Python
-
 Artificial Intelligence / Machine Learning
-
 Flask
-
 HTML
-
 CSS
-
 JavaScript
 
 
