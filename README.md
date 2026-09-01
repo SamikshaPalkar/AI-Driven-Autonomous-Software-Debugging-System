@@ -23,56 +23,93 @@ Instead of manually searching through code to identify problems, the system help
 📊 Structured Analysis – Organizes debugging results for easier understanding.
 
 🛠️ Technologies Used
+
 Python
+
 Artificial Intelligence / Machine Learning
+
 Flask
+
 HTML
+
 CSS
+
 JavaScript
 
 Project Structure
+
 AI-Driven-Autonomous-Software-Debugging-System/
-│
+
 ├── app.py
+
 ├── engine/
+
 ├── templates/
+
 ├── static/
+
 ├── analyzers/
+
 ├── ml/
+
 └── README.md
 
 ⚙️ Installation
+
 Clone the repository: git clone https://github.com/SamikshaPalkar/AI-Driven-Autonomous-Software-Debugging-System.git
+
 Navigate to the project: cd AI-Driven-Autonomous-Software-Debugging-System
+
 Install the required dependencies: pip install -r requirements.txt
 
 ▶️ Running the Application
+
 Run: python app.py
+
 Then open the local URL displayed in the terminal, typically:
+
 http://127.0.0.1:5000/
 
 🔄 System Workflow
+
 Source Code
+
      ↓
+
 Code Analysis
+
      ↓
+
 Error Detection
+
      ↓
+
 AI-Based Analysis
+
      ↓
+
 Debugging Insights
+
      ↓
+
 Developer
 
 🎯 Objective
+
 The primary objective of this project is to develop an autonomous and intelligent debugging assistant that can reduce manual debugging effort and help developers identify and understand software errors more efficiently.
 
 🔮 Future Scope
+
 Integration with additional programming languages
+
 More advanced AI-based error analysis
+
 Automated bug-fix suggestions
+
 Integration with IDEs
+
 Real-time debugging assistance
+
 Improved autonomous debugging capabilities
 
 👩‍💻 Author
