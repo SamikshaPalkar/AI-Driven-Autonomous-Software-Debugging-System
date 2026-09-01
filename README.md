@@ -2,11 +2,13 @@
 
 An AI-powered autonomous software debugging system designed to analyze source code, identify potential errors, and assist developers in understanding and resolving software issues.
 
+
 🚀 Overview
 
 The AI-Driven Autonomous Software Debugging System aims to simplify the debugging process by automatically analyzing code and providing useful insights about detected errors.
 
 Instead of manually searching through code to identify problems, the system helps developers locate and understand issues more efficiently.
+
 
 ✨ Key Features
 
@@ -24,6 +26,7 @@ Instead of manually searching through code to identify problems, the system help
 
 🛠️ Technologies Used
 
+
 Python
 
 Artificial Intelligence / Machine Learning
@@ -35,6 +38,7 @@ HTML
 CSS
 
 JavaScript
+
 
 Project Structure
 
@@ -54,6 +58,7 @@ AI-Driven-Autonomous-Software-Debugging-System/
 
 └── README.md
 
+
 ⚙️ Installation
 
 Clone the repository: git clone https://github.com/SamikshaPalkar/AI-Driven-Autonomous-Software-Debugging-System.git
@@ -70,33 +75,11 @@ Then open the local URL displayed in the terminal, typically:
 
 http://127.0.0.1:5000/
 
-🔄 System Workflow
-
-Source Code
-
-     ↓
-
-Code Analysis
-
-     ↓
-
-Error Detection
-
-     ↓
-
-AI-Based Analysis
-
-     ↓
-
-Debugging Insights
-
-     ↓
-
-Developer
 
 🎯 Objective
 
 The primary objective of this project is to develop an autonomous and intelligent debugging assistant that can reduce manual debugging effort and help developers identify and understand software errors more efficiently.
+
 
 🔮 Future Scope
 
